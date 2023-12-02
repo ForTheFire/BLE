@@ -38,7 +38,7 @@ promise.then(() => {
     // Display all the information on the screen
     // use innerHTML
     details.innerHTML = `
-      Device Name - ${device_name}<br />
+      Device Name - ${deviceName}<br />
       Battery Level - ${batteryPercent}%<br />
       Device Information:
       <ul>
